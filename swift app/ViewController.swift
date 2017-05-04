@@ -11,17 +11,18 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var label0: UILabel!
     
-    var tapCount = 0
+    @IBOutlet weak var text1: UITextField!
+    
+    
+    @IBOutlet weak var text2: UITextField!
 
+    
     @IBAction func ButtonPress0(_ sender: Any) {
-        tapCount = tapCount + 1
-        if tapCount >= 10 {
-            label0.text = "plz stap"
+        print (text1.text!)
+        print(text2.text!)
         }
-    }
+    
         @IBAction func WoOhooO(_ sender: Any) {
-        label0.text = "it works!"
-        print("Ham sandwiches")
     }
     
     override func viewDidLoad() {
