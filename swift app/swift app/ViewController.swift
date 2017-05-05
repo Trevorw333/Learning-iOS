@@ -2,32 +2,24 @@
 //  ViewController.swift
 //  swift app
 //
-//  Created by Trevor on 5/2/17.
-//  Copyright © 2017 Trevor. All rights reserved...
+//  Created by Trevor on 5/4/17.
+//  Copyright © 2017 Trevor. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var label0: UILabel!
-    
-    @IBOutlet weak var text1: UITextField!
-    
-    
-    @IBOutlet weak var text2: UITextField!
 
+    @IBOutlet weak var coolLabel: UILabel!
     
-    @IBAction func ButtonPress0(_ sender: Any) {
-        print (text1.text!)
-        print(text2.text!)
-        }
-    
-        @IBAction func WoOhooO(_ sender: Any) {
+    @IBAction func buttonTapped(_ sender: Any) {
+    coolLabel.text = "Changed"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        coolLabel.text = "Hello there!"
         
     }
 

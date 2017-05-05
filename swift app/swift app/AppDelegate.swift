@@ -2,11 +2,9 @@
 //  AppDelegate.swift
 //  swift app
 //
-//  Created by Trevor on 5/2/17.
-//  Copyright © 2017 Trevor. All rights reserved...
+//  Created by Trevor on 5/4/17.
+//  Copyright © 2017 Trevor. All rights reserved.
 //
-//this is a new comment
-//this is a change
 
 import UIKit
 
