@@ -73,6 +73,8 @@
                     </view>
                     <connections>
                         <outlet property="coolLabel" destination="nYh-Nr-wtg" id="Fmp-SZ-2hj"/>
+                        <outlet property="text1" destination="Vx9-Mc-4vO" id="I5c-K0-TU7"/>
+                        <outlet property="text2" destination="ycj-R9-Jfi" id="8dc-Zw-scP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

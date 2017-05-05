@@ -12,8 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var coolLabel: UILabel!
     
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     @IBAction func buttonTapped(_ sender: Any) {
-    coolLabel.text = "Changed"
+    
+        coolLabel.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
     }
     
     override func viewDidLoad() {
